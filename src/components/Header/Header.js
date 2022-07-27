@@ -16,7 +16,7 @@ const Header = () => {
                 whileTap={{ scale: 0.9 }}
                 className='flex justify-center items-center gap-1'>
                 <img className='w-10 h-10' src={Logo} alt="logo" />
-                <h1 className='text-2xl font-bold'>TakeWay <span className='text-red-600'>Corner</span></h1>
+                <h1 className='text-xl md:text-2xl font-bold'>TakeWay <span className='text-red-600'>Corner</span></h1>
             </motion.div>
             </Link>
             <div className='flex justify-between items-center gap-9'>

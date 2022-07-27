@@ -22,3 +22,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.text-big{
+  font-size: 60px;
+  line-height: 82px;
+}
+.card-bg{
+  background: rgba(256, 256, 256, 0.4);
+}

@@ -5,9 +5,9 @@ import { Routes, Route } from 'react-router-dom'
 function App() {
   return (
     <AnimatePresence>
-      <div className="bg-gray-200">
-        <Header></Header> 
-        <section> 
+      <div className="bg-gray-200 w-full h-full">
+        <Header></Header>  
+        <main className=""> 
           <Routes>
             <Route path='/' element={<Home></Home>}/>
             <Route path='/menu' element={<Menu></Menu>}/>
@@ -16,8 +16,8 @@ function App() {
             <Route path='/add-product' element={<AddProduct></AddProduct>}/>
             <Route path='/register' element={<Register></Register>}/>
             <Route path='/login' element={<Login></Login>}/>
-          </Routes> 
-        </section>
+          </Routes>  
+        </main>
       </div>
     </AnimatePresence>
   );
